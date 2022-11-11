@@ -12,7 +12,7 @@ export default function Contributors() {
 
   <Stack direction={"row"} align={"center"} justify={"center"}>
   <Stack m={4}>
-    <Table columnsConfig="100px 1fr 1fr 2fr 100px"
+    <Table key={1} columnsConfig="100px 1fr 1fr 2fr 100px"
       customNoDataText=""
       data={[ 
         [<Avatar isRounded size={36} theme="image"/>,
