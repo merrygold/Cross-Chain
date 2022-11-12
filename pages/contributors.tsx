@@ -9,10 +9,9 @@ export default function Contributors() {
 
  
   return (
-
   <Stack direction={"row"} align={"center"} justify={"center"}>
   <Stack m={4}>
-    <Table key={1} columnsConfig="100px 1fr 1fr 2fr 100px"
+    <Table columnsConfig="100px 1fr 1fr 2fr 100px"
       customNoDataText=""
       data={[ 
         [<Avatar isRounded size={36} theme="image"/>,
@@ -64,7 +63,7 @@ export default function Contributors() {
   </Stack>
 
   <Stack m={4}>
-    <Table key={2} columnsConfig="100px 1fr 1fr 2fr 100px"
+    <Table columnsConfig="100px 1fr 1fr 2fr 100px"
       customNoDataText=""
       data={[ 
         [<Avatar isRounded size={36} theme="image"/>,
@@ -115,8 +114,6 @@ export default function Contributors() {
     />
   </Stack>
   </Stack>
-  
-
   )
 }
 
