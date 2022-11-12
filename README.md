@@ -21,3 +21,14 @@ npm run dev
 ```
 ## License
 **Made for Moralis Google Hackathon!**
+
+## Contracts
+
+All Smart Contracts are inside Contracts:
+
+Smart Contract Addresses are below:
+
+BSC Testnet: https://testnet.bscscan.com/address/0x35a8d1e76e505e0f4b7be227f19ff0222f443366
+Goerli Testnet: https://goerli.etherscan.io/address/0x0502c2a9d5424eb2df5189538c0162f93faa1f7d
+
+Both Contracts are same as Main_Contract.sol
