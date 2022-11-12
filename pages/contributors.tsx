@@ -10,7 +10,7 @@ export default function Contributors() {
  
   return (
   <Stack direction={"row"} align={"center"} justify={"center"}>
-  {/* <Stack m={4}>
+  <Stack m={4}>
     <Table columnsConfig="100px 1fr 1fr 2fr 100px"
       customNoDataText=""
       data={[ 
@@ -112,7 +112,7 @@ export default function Contributors() {
       pageSize={5}
       tableBackgroundColor="#ffffff"
     />
-  </Stack> */}
+  </Stack>
   </Stack>
   )
 }
